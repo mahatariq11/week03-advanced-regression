@@ -1,0 +1,5 @@
+Model,MAE,RMSE,MedianAE,R2,RMSLE,P90_Error,Acc_±2m (%),Acc_±5m (%),Acc_±10m (%)
+Baseline 1: Global Mean,9.3846,13.9632,7.0132,-0.016,0.689,18.6368,14.0,35.54,70.2
+Baseline 2: Global Median,9.2422,14.7551,5.7333,-0.1344,0.6832,21.9667,18.07,44.18,75.41
+LinearRegression (Log Target),6.6291,9.752,4.6753,0.5045,0.5226,14.6095,22.5,52.95,81.13
+Tuned HistGradientBoosting,6.3078,9.5764,4.2067,0.5371,0.4963,14.0516,25.47,57.28,82.28
